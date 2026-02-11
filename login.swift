@@ -1,12 +1,7 @@
 class Person {
-   var name: String
-   var ag: Int
-   var salary: Double 
- 
-   init(name: String, age:Int, salary: Double) {
+   var name: String 
+   init(name: String) {
    self.name = name
-   self.age = age
-   self.salary = salary
   }
 }
 
